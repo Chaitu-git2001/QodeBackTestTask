@@ -31,7 +31,7 @@ The **Equity Strategy Backtesting Platform** is a production-ready system design
 
 *   **Backend API Layer**: Python 3.11+, [FastAPI](https://fastapi.tiangolo.com/) (high performance, automatic type-safety, and validation via Pydantic).
 *   **Database & ORM**: MySQL 8.0+ as the relational database, managed via [SQLAlchemy ORM](https://www.sqlalchemy.org/).
-*   **Frontend Client**: React 18+, [TypeScript](https://www.typescriptlang.org/), [Vite](https://vitejs.dev/) for high-speed builds, [Tailwind CSS](https://tailwindcss.com/) for layout styling, [Zustand](https://github.com/pmndrs/zustand) for global state management, and [Recharts](https://recharts.org/) for plotting interactive portfolio performance and drawdown curves.
+*   **Frontend Client**: React 18+, [Vite](https://vitejs.dev/) for high-speed builds, [Tailwind CSS](https://tailwindcss.com/) for layout styling, [Zustand](https://github.com/pmndrs/zustand) for global state management, and [Recharts](https://recharts.org/) for plotting interactive portfolio performance and drawdown curves.
 *   **Market Data Provider**: Yahoo Finance API (fetching historical daily OHLCV and fundamental metrics like P/E ratio, P/B ratio, ROE, etc.).
 
 ---
